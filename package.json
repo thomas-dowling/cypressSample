@@ -1,0 +1,23 @@
+{
+  "name": "zapticcypresssample",
+  "version": "1.0.0",
+  "description": "Sample Zaptic Test using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node util/fileCleanup.js",
+    "start": "./node_modules/.bin/cypress run --reporter mochawesome",
+    "cy": "./node_modules/.bin/cypress open",
+    "report": "open reports/report.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.3",
+    "node-delete": "^0.1.2"
+  },
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1",
+    "string-format": "^2.0.0"
+  }
+}

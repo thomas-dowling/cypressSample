@@ -1,0 +1,8 @@
+{
+    "integrationFolder": "cypress/tests",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "reports",
+        "reportFilename": "report.html"
+      }
+}
